@@ -1,0 +1,166 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+font-family: 'ROGFont';
+  src: url('./Fonts/asusrog_regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'ROGFont', sans-serif, monospace;
+    background-color: #051b3a;
+    background: #051b3a url('images/hex3.png') repeat;
+    background-color: transparent;
+    margin: 0;
+    padding: 100px;
+    color: #000000;
+    border: 5px solid #1effda;
+    border-radius: 10px;
+    text-shadow: 0 0 20px #1ee9ff;
+    --webkit-text-stroke: 1px #1effda;
+
+}
+
+.name-section h4 {
+    color: #1ee9ff;
+    font-size: 3rem;
+    font-family: 'ROGFont', sans-serif, monospace;
+    text-align: center;
+   
+    
+    padding: 0px;
+    
+}
+
+
+h1 {
+    color: #1ee9ff;
+    font-size: 3rem;
+    font-family: 'ROGFont', sans-serif, monospace;
+    text-align: center;
+    background-color: #1ee9ff;
+    
+    background: #051b3a url('images/hex3.png') repeat;
+    border: 6px solid #1ee9ff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    height: 100px;
+}
+
+.outline {
+    font-size: 2rem;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+}
+
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #051b3a url('images/hex3.png') repeat;
+    border-bottom: 5px solid #1ee9ff;
+    z-index: 1000;
+    list-style: none; /* Removes bullet points */
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 0 0 10px #1ee9ff;
+    -webkit-text-stroke: 0.5px #1ee9ff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-menu li a:hover {
+    background-color: #1ee9ff7d;
+    transform: scale(1.05);
+}
+
+#otherProjects h2 {
+    color: #1ee9ff;
+    font-family: 'ROGFont', sans-serif, monospace;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #1ee9ff;
+    background: #1ee9ff url('Images\download.png') repeat;
+    background: #051b3a url('images/hex3.png') repeat;
+    border: 5px solid #1ee9ff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    height: 100px;
+   
+}
+
+#introduction h2 {
+    color: #1ee9ff;
+    font-family: 'ROGFont', sans-serif, monospace;
+    text-align: center;
+    background-color: #1ee9ff;
+    background: #1ee9ff url('Images\download.png') repeat;
+    background: #051b3a url('images/hex3.png') repeat;
+    border: 5px solid #1ee9ff;
+    border-radius: 10px;
+    font-size: 3rem;
+    
+    margin-bottom: 40px;
+    padding: 10px;
+    height: 100px;
+}
+
+
+#contact h2 {
+    color: #1ee9ff;
+    font-size: 4rem;
+
+    font-family: 'ROGFont', sans-serif, monospace;
+    text-align: center;
+    background-color: #1ee9ff;
+    background: #1ee9ff url('Images\download.png') repeat;
+    background: #051b3a url('images/hex3.png') repeat;
+    border: 5px solid #1ee9ff;
+    border-radius: 10px;
+    
+    margin-bottom: 40px;
+    padding: 20px;
+    height: 100px;
+    flex: 1;
+}
+
+
+
+footer {
+    background-color: #1ee9ff;
+    background: #051b3a url('images/hex3.png') repeat;
+    border: 5px solid #1ee9ff;
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+    padding: 1px;
+    margin: 10px 0;
+    font-size: 1.3rem;
+    bottom: -.8rem;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    
+    
+}
+
+
+
